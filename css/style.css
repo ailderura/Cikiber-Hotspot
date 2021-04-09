@@ -1,0 +1,62 @@
+body {
+  background: #dd5e89;
+  background: -webkit-linear-gradient(to left, #dd5e89, #f7bb97);
+  background: linear-gradient(to left, #dd5e89, #f7bb97);
+  color: #f2f2f2;
+  text-align:center;
+}
+
+.tablemain {
+  text-align: center;
+  height: 95vh;
+}
+
+#main{
+  margin: 0 auto;
+  max-width: 300px;
+  border-radius:5px;
+  transition: 0.3s;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse !important;
+}
+.table td,
+.table th {
+  padding: 5px;
+  border: 1px solid #f2f2f2 !important;
+  color:  #f3f4f5;
+}
+
+.table td, th, a{
+  color: #f3f4f5;
+  text-decoration: none;
+}
+
+iframe#exp {
+  height: 44px;
+  width: 100%;
+  margin-top: -8px;
+}
+
+@keyframes fadein {
+  from {opacity:0;}
+  to {opacity: 1;}
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {opacity:0;}
+  to {opacity: 1;}
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {opacity:0;}
+  to {opacity: 1;}
+}
+@-o-keyframes fadein { /* Opera */
+  from {opacity:0;}
+  to {opacity: 1;}
+}
