@@ -2,6 +2,16 @@
 
 ![Riedayme](https://github.com/riedayme/cikiber-hotspot/blob/master/preview.png?raw=true)
 
+## Konfigurasi
+Silahkan Edit File
+```
+js/config.js > pengaturan nama hotspot, no_wa, alamat server_mikhmon
+help.html > bantuan
+tos.html > ketentuan layanan
+price.html > daftar harga
+```
+
+
 ## Change Log
 09 April 2021
 * Release

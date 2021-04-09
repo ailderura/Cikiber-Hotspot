@@ -192,6 +192,7 @@
 
     <script src="js/nav.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/config.js"></script>    
 
     $(if advert-pending == 'yes')
     <script language="JavaScript">
@@ -217,7 +218,7 @@
 
         //get vaidity
         var usr = document.getElementById('user').innerHTML;
-        var url = "http://192.168.5.254/mikhmonv3/status/status.php?name="; // http://ip-server-mikhmon/mikhmonv2/status/status.php?name=
+        var url = mikhmon_server + "/status/status.php?name="; // http://ip-server-mikhmon/mikhmonv2/status/status.php?name=
         var SessionName = "hotspot-mikhomon";
         var getvalid = url+usr+"&session="+SessionName;
         document.getElementById('exp').src = getvalid;        
